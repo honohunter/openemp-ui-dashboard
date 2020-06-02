@@ -1,11 +1,10 @@
-const webpackMerge = require("webpack-merge");
-const singleSpaDefaults = require("webpack-config-single-spa-react");
-const path = require("path");
+const webpackMerge = require('webpack-merge');
+const singleSpaDefaults = require('webpack-config-single-spa-react');
 
-module.exports = webpackConfigEnv => {
+module.exports = (webpackConfigEnv) => {
   const defaultConfig = singleSpaDefaults({
-    orgName: "openemp-mf",
-    projectName: "dashboard",
+    orgName: 'openemp-mf',
+    projectName: 'dashboard',
     webpackConfigEnv,
   });
 
