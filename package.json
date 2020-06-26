@@ -1,5 +1,5 @@
 {
-  "name": "dashboard",
+  "name": "@openemp-mf/dashboard",
   "repository": "git@github.com:openemp/openemp-ui-dashboard.git",
   "author": "OpenEMP",
   "license": "MIT",

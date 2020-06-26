@@ -11,7 +11,7 @@ module.exports = (webpackConfigEnv) => {
   return webpackMerge.smart(defaultConfig, {
     // customizations can go here
     devServer: {
-      port: 9001,
+      port: 9100,
     },
   });
 };
